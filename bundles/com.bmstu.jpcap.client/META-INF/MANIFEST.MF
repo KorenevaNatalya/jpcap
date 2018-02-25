@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Client
+Bundle-SymbolicName: com.bmstu.jpcap.client
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.bmstu.jpcap;version="[1.0.0,2.0.0)",
+ com.bmstu.jpcap.model;version="[1.0.0,2.0.0)"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/com.bmstu.jpcap.client.JpcapClient.xml

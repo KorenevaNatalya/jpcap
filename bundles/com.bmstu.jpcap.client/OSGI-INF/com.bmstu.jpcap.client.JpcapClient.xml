@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.bmstu.jpcap.client.JpcapClient">
+   <property name="jpcap.device.name" type="String" value="\Device\NPF_{8C5556F7-ACBA-40BB-8D62-1287D077D536}"/>
+   <service>
+      <provide interface="com.bmstu.jpcap.IJpcapClient"/>
+   </service>
+   <implementation class="com.bmstu.jpcap.client.JpcapClient"/>
+</scr:component>

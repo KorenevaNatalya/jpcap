@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jpcap
+Bundle-SymbolicName: com.bmstu.jpcap
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: BMSTU
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.bmstu.jpcap;version="1.0.0",
+ com.bmstu.jpcap.model;version="1.0.0"
